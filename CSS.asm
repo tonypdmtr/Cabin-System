@@ -48,7 +48,8 @@ CSBUILD             equ       51                  ; system build version
 ;                                     command at the USERNAME: prompt for
 ;                                     a PC to dump just the first of the RAM
 ;     V1.51   hbs       1-Feb-2011    Added to public repository
-
+;**************************************************************************
+                    #ExtraOn                      ; allow ASM11 extra mnemonics
 ;**************************************************************************
 ; EVB memory assignments
 ;**************************************************************************
